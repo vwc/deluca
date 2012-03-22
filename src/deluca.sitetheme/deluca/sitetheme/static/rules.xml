@@ -47,6 +47,8 @@
         <replace css:content="#portal-breadcrumbs" css:theme="#pathbar" />
         <drop css:content="#breadcrumbs-you-are-here" />
 	    
+        <replace css:theme="#editable-box" css:content="#specials-block" />
+
 	    <!-- Copy over the contents of the page body -->
 	    <replace css:content-children="#content" css:theme-children="#content" />
         <replace css:content="#edit-bar" css:theme="#editbar" />
