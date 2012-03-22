@@ -21,3 +21,6 @@ var
 *.pyc
 *.pyo
 etc/**/*
+src/plone.app.blocks
+src/plone.app.tiles
+src/plone.tiles
