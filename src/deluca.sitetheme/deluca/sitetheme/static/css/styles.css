@@ -616,6 +616,9 @@ dl.portlet dd.portletItem span.portletItemDetails {
 dl.portlet {
   font-size: 80%;
 }
+dl.portlet dd.portletItem p img.image-inline {
+  margin-left: 30px;
+}
 #content a:link, dl.portlet a:link {
   color: #000;
 }
