@@ -220,6 +220,23 @@ html, body {
   top: 48px;
   left: 12px;
 }
+
+#specials-block {
+        margin-left: 150px;
+}
+#specials-block h2 {
+  background: url("../images/logo_small_green.png") no-repeat scroll 0 4px transparent;
+    color: #127944;
+    font-family: georgia;
+    font-weight: lighter;
+    height: auto;
+    padding-left: 30px;
+    line-height: 100%;
+}
+#specials-block p {
+  font-size: 12px;
+}
+
 #main-content {
   border: 0px solid red;
 }

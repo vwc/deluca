@@ -1,0 +1,7 @@
+<div id="specials-block">
+    <h2 class="headline">Das besondere Angebot vom De Luca-Team an Sie:</h2>
+    <p>Mit unserem w&ouml;chentlich wechselnden Special genie&szlig;en
+    Sie das Beste, was die italienische K&uuml;che zu bieten hat, zu
+    freundlichen Preisen.</p>
+    <div tal:attributes="data-tile string:${context/absolute_url}/@@vwc.tiles.richtext/editable-box?ajax_load=1" />
+</div>
