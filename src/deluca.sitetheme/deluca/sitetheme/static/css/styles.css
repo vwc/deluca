@@ -229,6 +229,9 @@ body {
   top: 48px;
   left: 12px;
 }
+#special-area span #specials-block {
+  margin-left: 150px;
+}
 #main-content {
   border: 0px solid red;
 }
@@ -300,6 +303,12 @@ body {
   float: left;
 }
 .section-trattoria #pic {
+  background: url(../images/trattoria.png) no-repeat 0px 0px transparent;
+}
+.section-kontakt #pic {
+  background: url(../images/trattoria.png) no-repeat 0px 0px transparent;
+}
+.section-impressum #pic {
   background: url(../images/trattoria.png) no-repeat 0px 0px transparent;
 }
 .section-oeffnungszeiten #pic {
@@ -636,6 +645,9 @@ dl.portlet dd.portletItem span.portletItemDetails {
 }
 dl.portlet {
   font-size: 75%;
+}
+dl.portlet dd.portletItem p img.image-inline {
+  margin-left: 30px;
 }
 #content a:link,
 dl.portlet a:link {
