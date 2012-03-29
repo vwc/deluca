@@ -305,6 +305,10 @@ html, body {
     border: 7px solid #fff;
 }
 
+#pfg-fieldwrapper .ArchetypesStringWidget {
+    float:left;
+}
+
 .section-trattoria #pic {
     background: url(../images/trattoria.png) no-repeat 0px 0px transparent;
 }
@@ -639,17 +643,29 @@ body#content {
     font-style: italic;
     font-weight: lighter;
     font-family: georgia;
-    color: #bf2433;
+    color: #BF2433;
 }
 
-#content h2 a:link{
+#content h2 {
+    font-style: italic;
+    font-weight: lighter;
+    font-family: georgia;
+    color: #BF2433;
+}
+
+#content h3 {
     background: url(../images/logo_small_green.png) 0px 4px no-repeat transparent;
+    padding-top: 2px;
     padding-left: 30px;
     height: 25px;
-    width:160px;
     color: #127944;
     font-family: georgia;
     font-weight: lighter;
+        font-style: italic;
+}
+
+#content h3 a {
+
 }
 
 #content h2 a:visited {
@@ -698,7 +714,7 @@ dl.portlet dd.portletItem span.portletItemDetails{
 }
 
 dl.portlet {
-    font-size: 80%;
+    font-size: 75%;
 }
 
 #content ul,
@@ -708,12 +724,12 @@ dl.portlet {
 
 #content a:link,
 dl.portlet a:link {
-    color: #000;
+    color: #127944;
 }
 
 #content a:visited,
 dl.portlet a:visited {
-    color: #427597;
+    color: #127944;
     border-bottom: 0.1em solid #ccc;
 }
 #content a:hover,
@@ -1234,7 +1250,7 @@ dl.error dd {
 
 #contentActionMenus {
     float: right;
-    background: #75ad0a;
+    background: #333;
     margin: 0;
     position: relative;
     top: -0.23em;
