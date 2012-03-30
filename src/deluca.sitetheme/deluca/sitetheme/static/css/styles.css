@@ -229,8 +229,9 @@ body {
   top: 48px;
   left: 12px;
 }
-#special-area span #specials-block {
+#specials-block {
   margin-left: 150px;
+  font-size: 12px;
 }
 #main-content {
   border: 0px solid red;
@@ -1716,7 +1717,7 @@ div.overlay .formControls a {
   /* Sticky footer */
 
   height: 6em;
-  /*	background: #ccc;*/
+  /*  background: #ccc;*/
 
 }
 #push {
@@ -1731,7 +1732,7 @@ div.overlay .formControls a {
 #footer {
   background: url(../images/footer.png) repeat-x 0% 0% transparent;
   color: White;
-  /*	font-family: "Lucida Grande", Verdana, FreeSans, sans-serif;*/
+  /*  font-family: "Lucida Grande", Verdana, FreeSans, sans-serif;*/
 
   font-family: tahoma;
   margin: 0 auto;
